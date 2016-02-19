@@ -4,5 +4,9 @@
 	"Category": "",
 	"Description": "",
 	"Plugins": [
+		{
+			"Name": "Substance",
+			"Enabled": true
+		}
 	]
 }
