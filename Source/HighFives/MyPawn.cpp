@@ -30,6 +30,10 @@ void AMyPawn::Tick( float DeltaTime )
 void AMyPawn::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 {
 	Super::SetupPlayerInputComponent(InputComponent);
+	
 
 }
 
+void MoveForward(float AxisValue) {
+	//CurrentVelocity.X = FMath::Clamp(FMath::Sin + DeltaTime, 1.0f, -1.0f);
+}
