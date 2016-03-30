@@ -9,3 +9,10 @@ AHealthPickup::AHealthPickup()
 	GetMesh()->SetSimulatePhysics(true);
 }
 
+void AHealthPickup::WasCollected_Implementation()
+{
+	// Use base pickup behavior
+	Super::WasCollected_Implementation();
+	// Destroy the battery
+	Destroy();
+}
