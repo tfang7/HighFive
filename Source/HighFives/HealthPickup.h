@@ -15,6 +15,9 @@ class HIGHFIVES_API AHealthPickup : public APickup
 public:
 	// Sets default values for this actor's properties
 	AHealthPickup();
+	/** Override wasCollected function use implementation for blueprint native event */
+	void WasCollected_Implementation() override;
+
 	
 	
 	
