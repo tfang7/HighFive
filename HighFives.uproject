@@ -17,6 +17,13 @@
 		{
 			"Name": "Substance",
 			"Enabled": true
+<<<<<<< HEAD
+=======
+		},
+		{
+			"Name": "Substance",
+			"Enabled": true
+>>>>>>> origin/master
 		}
 	]
 }
